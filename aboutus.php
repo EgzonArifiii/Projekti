@@ -12,7 +12,9 @@ include_once "classes/StaffController.php";
         <h1>OUR TEAM</h1>
         <p>Lorem ipsum dolor sit amet, consectetur  elit. Corporis, repellat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repellat?</p>
         <div class="content">
-        <?php
+        <img src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2021/03/improve-team-efficiency-productivity-header.jpg" alt="Description of image" width="600" height="300">
+
+        <!-- <?php
             $freelancers= new StaffController;
             $all=$freelancers->readData();
             for($i=0;$i<count($all);$i++){
@@ -24,7 +26,7 @@ include_once "classes/StaffController.php";
                 </ul>
                 </figure>'; 
             }
-            ?>
+            ?> -->
 
         
 <footer>    
