@@ -22,7 +22,7 @@ class LoginContrAdmin extends LoginAdmin{
     }
 
     private function emptyInput(){
-        $result;
+        $result = false;
         if( empty($this->username) || empty($this->password)){
             $result= false;
         }
@@ -31,4 +31,5 @@ class LoginContrAdmin extends LoginAdmin{
         }
         return $result;
     }
+    
 }
