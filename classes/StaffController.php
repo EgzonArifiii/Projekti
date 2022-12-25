@@ -25,7 +25,7 @@ class StaffController extends Dbh{
         $stmt->bindParam(':staffContent',$request['content']);
         $stmt->execute();
 
-        return header("location: staff-dashboard.php?error=none");
+        return  header("location: staff-dashboard.php?error=none");
     }
 
     public function edit($id){
