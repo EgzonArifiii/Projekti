@@ -10,7 +10,7 @@ class LoginContrAdmin extends LoginAdmin{
         $this->password=$password;
 
     }
-
+//test
     public function loginUser(){
        if($this-> emptyInput() == false){
            header("location: ../login.php?error=emptyinput");
