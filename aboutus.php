@@ -16,13 +16,14 @@ include_once "classes/StaffController.php";
             $freelancers= new StaffController;
             $all=$freelancers->readData();
             for($i=0;$i<count($all);$i++){
-                echo ' <figure id="fig1">
-                <img src="' .$all[$i]['staffImage'].'" width="150px">
-                <ul>
-                     <li><h3>'.$all[$i]['staffName'].'</h3></li>
-                     <li><p>'.$all[$i]['staffContent'].'</p></li>
-                </ul>
-                </figure>';
+            //  <!--   echo ' <figure id="fig1">
+            //     <img src="' .$all[$i]['staffImage'].'" width="150px">
+            //     <ul>
+            //          <li><h3>'.$all[$i]['staffName'].'</h3></li>
+            //          <li><p>'.$all[$i]['staffContent'].'</p></li>
+            //     </ul>
+            //     </figure>'; -->
+            
             }
             ?>
 

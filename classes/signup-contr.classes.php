@@ -42,7 +42,7 @@ class SignupContr extends SignUp{
 
     }
 
-    private function emptyInput(){
+    private function empty(){
         $result = false;
         if(empty($this->name) || empty($this->email) || empty($this->username) || empty($this->password) || empty($this->pwdRepeat)){
             $result= false;
